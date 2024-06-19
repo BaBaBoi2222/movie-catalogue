@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    border: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#container {
+    margin: 2%;
+    position: sticky;
+    background-color: bisque;
+}
+#head {
+    font-family: "Honk", system-ui;
+    font-size: 200%;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+    text-align: center;
+    background-color: cadetblue;
+    float: top;
+    position: relative;
+}
+#contents{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#contents li {
+    list-style: none;
+    background-color: aquamarine;
+    margin: 1%;
+    padding: 3%;
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    position: relative;
+    font-size: 40%;
+}
+#contents li img {
+    width: 20%;
+    height: 20%;
+
+}
